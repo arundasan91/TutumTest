@@ -1,0 +1,8 @@
+deploymultiple:
+  image: tutum.co/arundas/samplepython
+  target_num_containers: 4
+  restart: always
+  autodestroy: no
+  deployment_strategy: emptiest_node
+  sequential_deployment: false
+  autoredeploy: true
